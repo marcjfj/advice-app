@@ -6,6 +6,6 @@
               after:flex-grow after:border-b after:border-gray-light after:mx-3
               "
       >
-      <i v-for="i in 2" key="i" class="w-[6px] h-5 rounded mx-1 bg-light block"></i>
+      <i v-for="i in 2" :key="i" class="w-[6px] h-5 rounded mx-1 bg-light block"></i>
     </div>
 </template>
