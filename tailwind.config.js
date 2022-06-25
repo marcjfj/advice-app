@@ -20,7 +20,7 @@ module.exports = {
         '2xl': `${28 / 16}rem`,
       },
       letterSpacing: {
-        'omg': '.3em',
+        'omg': '.35em',
       }
     },
   },
