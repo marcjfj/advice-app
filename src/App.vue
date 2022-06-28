@@ -29,7 +29,7 @@ const fetchAdvice = async () => {
   // Create api request
   const request = fetch('https://api.adviceslip.com/advice', {cache: 'no-cache'});
   // set timer so that loading state is persists long enough for transition to finish
-  const timer = new Promise(resolve => setTimeout(resolve, 0))
+  const timer = new Promise(resolve => setTimeout(resolve, 800))
   // Wait for both promises to resolve
   const [response] = await Promise.all([request, timer])
   // Extract data from response
