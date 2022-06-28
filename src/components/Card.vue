@@ -11,7 +11,7 @@
       w-full
       max-w-[540px]
       relative
-      transition-all
+      transition
       duration-300
       ease-in-out
     "
@@ -27,7 +27,7 @@
         advice
         text-light text-2xl
         font-bold
-        transition-all
+        transition
         ease-out
         duration-700
       "
