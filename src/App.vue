@@ -35,7 +35,7 @@ const fetchAdvice = async () => {
   // Wait for both promises to resolve
   const [response] = await Promise.all([request, timer]);
   // Extract data from response
-  const slip = (await response.json()).slip;
+  const { slip } = await response.json();
   // Update the reactive advice ref with the new values
   adviceObj.value = slip;
   // Set loading state to false
